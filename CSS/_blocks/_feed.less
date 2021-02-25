@@ -1,0 +1,149 @@
+// main: ..//style.less
+
+.feed {
+    padding: 57px 0 98px 0;
+    background: url(.././images/dest/feedbg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 850px;
+    * {
+        font-family: "MuseoSansLight";
+        font-size: 16px;
+        line-height: 17px;
+    }
+
+     .feed__header
+    {
+    margin-left: 435px;
+    position: relative;
+    width: 360px;
+    height: 90px;
+    padding: 20px;
+    border-radius: 20px;
+    background: #4CA4DB;
+    border-radius: 30px;
+
+            h3 {
+            font-size: 21px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            line-height: 25px;
+        }
+    }
+
+    
+    
+    .feed__header:after
+    {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 5px 30px 16px 0;
+    border-color: transparent #4CA4DB;
+    display: block;
+    width: 0;
+    z-index: 1;
+    left: -15px;
+    top: 61px;
+    }
+    
+
+    .feed__descr
+    {
+    margin: 0 auto;
+    margin-top: 30px;
+    position: relative;
+    width: 505px;
+    height: 145px;
+    padding: 20px;
+    background: #E5E5E5;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    border: #E5E5E5 solid 1px;  
+       p {
+            width: 455px;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: center;
+            font-family: "MuseoSansMedium";
+            color: #000000;
+        }
+    }
+    
+    .feed__descr:after
+    {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 10px 0 18px 34px;
+    border-color: transparent #E5E5E5;
+    display: block;
+    width: 0;
+    z-index: 1;
+    right: -15px;
+    top: 113px;
+    }
+    
+    .feed__descr:before
+    {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 10px 0 18px 34px;
+    border-color: transparent #E5E5E5;
+    display: block;
+    width: 0;
+    z-index: 0;
+    right: -15px;
+    top: 113px;
+    }
+    
+
+    .feed__wrapper {
+        margin-top: 62px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .feed__list {
+            margin-right: 20px;
+            width: 246px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            line-height: 20px;
+
+            .feed__img {
+                margin-right: 24px;
+            }
+
+            .feed__child {
+                margin-top: 20px;
+                h4 {
+                    font-family: "MuseoSansBlack";
+                    font-size: 20px;
+                    color: #4CA4DB;
+                    line-height: 25px;
+
+                    span {
+                        font-family: "MuseoSansBlack";
+                        color: #F59091;
+                        font-size: 20px;
+                        line-height: 25px;
+                    }
+
+                }
+
+                p {
+                    font-family: "MuseoSansMedium";
+                    line-height: 35px;
+                }
+            }
+
+        }
+    }
+
+}

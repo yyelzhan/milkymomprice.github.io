@@ -1,0 +1,124 @@
+// main: ..//style.less
+.product{
+    *{
+        font-family: "MuseoSansLight";
+        font-size: 16px;
+        line-height: 17px;
+        
+    }
+    padding: 102px 0 119px 0;
+    position: relative;
+    #canvas {
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 80%;
+        margin: 0 auto;
+        z-index: -1;
+      }
+    .product__wrapper{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        .product_img{
+            margin-right: 130px;
+
+        }
+        .vitamin{
+            background:url(.././images/dest/витамины.png) no-repeat;
+            height: 200px;
+            width: 400px;
+            position: relative;
+            .round{
+                width: 71.92px;
+                height: 71.92px;
+                background: #9FBFFF;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius:100%;
+                text-align: center;
+                transition: 1s;
+                p{
+                    font-family: "MuseoSansBlack";
+                    font-size: 10px;
+                    color: #ffffff;
+                }
+                
+            }
+            .round--head{
+                position: absolute;
+                top: 10px;
+            }
+            .round--firts{
+                position: absolute;
+                width: 47.22px;
+                height: 47.22px;
+                left: 255px;
+                top: 10px;
+                background: #9FBFFF;
+                p{
+                    
+                    font-size: 27px;
+                }
+                
+           
+            }
+            .round--second{
+                position: absolute;
+                width: 100.63px;
+                height: 100.63px;
+                background: #F16F70;
+                left: 100px;
+                bottom: 0;
+                p{
+                    font-size: 60px;
+                }
+            }
+           .round--three{
+                position: absolute;
+                width: 86.72px;
+                height: 86.72px;
+                background: #9FBFFF;
+                border-radius:100%;
+                left: 221px;
+                bottom: 10px;
+                p{
+                    font-size: 14px;
+                }
+            }
+            .round--for{
+                position: absolute;
+                width: 63.14px;
+                height: 63.14px;
+                background: #FFD37E;
+                border-radius:100%;
+                left: 300px;
+                top:50px;
+                p{
+                    font-size: 37.1439px;
+                }
+                
+            }
+        
+            .round:hover{
+                transform: scale(1.5);
+            }
+        
+        }
+        .product__descr{
+            width: 455px;
+            .first{
+                font-family: "MuseoSansBold";
+                font-size: 20px;
+                color: #4CA4DB;
+                line-height: 26px;
+            }
+            .second {
+                font-family: "MuseoSansMedium";
+                margin-top: 76px;
+                line-height: 21px;
+            }
+        }
+    }
+}

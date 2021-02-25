@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milky Mom</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <div class="main__wrapper">
+        <header class="header" id="up">
+            <div class="container">
+                <div class="header__wrapper">
+                    <div class="block2">
+                        <div class="price">
+                            <div class="old_price">19 700 тг</div>
+                            <div class="new_price">14 990 тг</div>
+                        </div>
+                        <div class="header__product"><img src="images/dest/header_img.png" alt="capsule"></div>
+
+                    </div>
+                    <div class="block">
+                        <div class="header__text">
+                            <div class="header__logo"><img src="images/dest/logo.png" alt=""></div>
+                            <p class="firsttext">Природное средство для стимуляции лактации.</p>
+                            <p class="secondtext">Здоровье ребенка – <span>здоровье матери</span> </p>
+                            <div class="form">
+                                <p>Чтобы получить скидку, <br> <strong>заполните форму </strong></p>
+                                <span class="cpa-form-wrapper">
+                                    <form method="POST" enctype="application/x-www-form-urlencoded"
+                                        action="/?referer=&amp;cpa_form=1" onsubmit="return cpaFormValidation(this)">
+                                        <div
+                                            class="cpa-form-group cpa-form-group-odd cpa-form-group-first cpa-wrapper-field-country">
+                                            <label class="cpa-control-label">Страна:</label><select
+                                                class="cpa-group-field cpa-select-country" name="country">
+                                                <option selected="true" value="kz">Казахстан</option>
+                                                <option value="kg">Киргизия</option>
+                                            </select>
+                                        </div>
+                                        <div class="cpa-form-group cpa-form-group-even cpa-wrapper-field-fio"><label
+                                                class="cpa-control-label">ФИО:</label><input
+                                                class="cpa-group-field cpa-input-fio" name="fio" placeholder="Ваше имя">
+                                        </div>
+                                        <div class="cpa-form-group cpa-form-group-odd cpa-wrapper-field-phone"><label
+                                                class="cpa-control-label">Телефон:</label><input
+                                                class="cpa-group-field cpa-input-phone" name="phone"
+                                                placeholder="Ваш телефон">
+                                        </div>
+                                        <div class="cpa-form-group cpa-form-group-even cpa-wrapper-field-total"><label
+                                                class="cpa-control-label cpa-control-total">Итого:</label><span
+                                                class="cpa-control-amount">6490.00 тнг</span></div>
+                                        <div
+                                            class="cpa-form-group cpa-form-group-odd cpa-form-group-last cpa-wrapper-field-submit">
+                                            <button class="cpa-input-submit" type="submit"
+                                                onclick="yaCounter45713811.reachGoal('ORDER'); return true;">ПОЛУЧИТЬ
+                                                СКИДКУ</button><input type="hidden" name="offer"
+                                                value="laminary_mask"><input type="hidden" name="vendor" value=""><input
+                                                type="hidden" name="price" value=""><input type="hidden"
+                                                name="campaign_default" value="aAcLzqZl">
+                                        </div>
+                                    </form>
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="result">
+            <div class="container">
+                <div class="result__head">
+                    <h3>как milky mom влияет на организм матери:</h3>
+                </div>
+                <div class="result__wrapper">
+                    <div class="result__list">
+                        <div class="result_check"><img src="images/dest/check_mark.svg" alt=""></div>
+                        <p class="result__descr">Улучшает
+                            и стабилизирует
+                            лактацию</p>
+                    </div>
+                    <div class="result__list">
+                        <div class="result_check"><img src="images/dest/check_mark.svg" alt=""></div>
+                        <p class="result__descr">Придает грудному молоку максимальное количество витаминов</p>
+                    </div>
+                    <div class="result__list">
+                        <div class="result_check"><img src="images/dest/check_mark.svg" alt=""></div>
+                        <p class="result__descr">Улучшает здоровье
+                            и иммунитет ребенка
+                            и матери</p>
+                    </div>
+                    <div class="result__list">
+                        <div class="result_check"><img src="images/dest/check_mark.svg" alt=""></div>
+                        <p class="result__descr">Восстанавливает организм после родов</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="product">
+            <canvas id="canvas"></canvas>
+            <div class="container">
+
+                <div class="product__wrapper">
+                    <div class="product_img" id="suka"><img src="images/dest/mom.png" alt=""></div>
+                    <div class="product__descr">
+                        <p class="first">Специализированный продукт "Milky Mom"
+                            для нормализации и повышения лактации. Разработан совместно с институтом правильного питания
+                            для
+                            мам ИНПТ.
+                        </p>
+                    </div>
+                </div>
+                <div class="product__wrapper">
+                    <div class="product__descr">
+                        <p class="second">
+                            Продукт рекомендован всем родильницам и кормящим женщинам для быстрого старта лактации и в
+                            качестве дополнительного источника белка, витаминов и минеральных солей с целью профилактики
+                            у
+                            них гипогалактии и дефицита указанных пищевых веществ.
+
+                        </p>
+                    </div>
+                    <div class="product_img">
+                        <div class="vitamin">
+                            <div class="round round--head">
+                                <p>фолиевая
+                                    кислота</p>
+                            </div>
+                            <div class="round round--firts">
+                                <p>A</p>
+                            </div>
+                            <div class="round round--second">
+                                <p>E</p>
+                            </div>
+                            <div class="round round--three">
+                                <p>масло семян хельбы</p>
+                            </div>
+                            <div class="round round--for">
+                                <p>C</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="structure">
+            <div class="container">
+                <h3>Почему молоко пропало? </h3>
+                <div class="structure__wrapper">
+                    <div class="structure__list">
+                        <div class="structure__img"><img src="images/dest/symbol.svg" alt="">
+                            <p>Сильная потеря крови при родах</p>
+                        </div>
+                        <div class="structure__img"><img src="images/dest/symbol.svg" alt="">
+                            <p>Послеродовой стресс/депрессия</p>
+                        </div>
+                        <div class="structure__img"><img src="images/dest/symbol.svg" alt="">
+                            <p>Синдром поликистозных яичников</p>
+                        </div>
+                        <div class="structure__img"><img src="images/dest/symbol.svg" alt="">
+                            <p>Диабет</p>
+                        </div>
+                    </div>
+                    <div class="structure__list">
+                        <div class="structure__img"><img src="images/dest/symbol.svg" alt="">
+                            <p>Нарушения функции щитовидной железы</p>
+                        </div>
+                        <div class="structure__img"><img src="images/dest/symbol.svg" alt="">
+                            <p>Гормональные нарушения</p>
+                        </div>
+                        <div class="structure__img"><img src="images/dest/symbol.svg" alt="">
+                            <p>Операции или травмы груди</p>
+                        </div>
+                        <div class="structure__img"><img src="images/dest/symbol.svg" alt="">
+                            <p>Редкое медицинское отклонение
+                                «гипоплазия молочной железы»</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="structure__box">
+                    <div class="structure__img">
+                        <img src="images/dest/product2.png" alt="">
+                        <div class="price">
+                            <div class="old_price">19 700 тг</div>
+                            <div class="new_price">14 990 тг</div>
+                        </div>
+                    </div>
+                    <a href="#push">
+                        <div class="form">
+                            <button class="cpa-input-submit" type="submit"
+                                onclick="yaCounter45713811.reachGoal('ORDER'); return true;">ЗАКАЗАТЬ
+                            </button>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="feed">
+            <div class="container">
+                <div class="feed__header" class="anima">
+                    <h3>Если не кормить ребенка грудным молоком?</h3>
+                </div>
+                <div class="feed__descr">
+                    <p>Часто такое бывает, что ребенок с самого первого дня растет на искусственном кормлении. Это
+                        нормально, но По исследованиям, дети, которые выросли на грудном вскармливании имеют крепкий
+                        иммунитет в отличии детей на искусственном вскармливании. </p>
+                </div>
+                <div class="feed__wrapper">
+                    <div class="feed__list">
+                        <div class="feed__img"><img src="images/dest/feed1 (1).png" alt="#"></div>
+                        <div class="feed__child">
+                            <h4>Плюсы грудного
+                                вскармливания:</h4>
+                            <p>+ Крепкий иммунитет </p>
+                            <p>+ Быстрый рост и развитие</p>
+                            <p>+ Дети спокойнее при ГВ</p>
+                            <p>+ Получает витамины <br>
+                                с материнским молоком</p>
+                        </div>
+                    </div>
+                    <div class="feed__list">
+                        <div class="feed__img"><img src="images/dest/feed2.png" alt="#"></div>
+                        <div class="feed__child">
+                            <h4><span>Минусы искусственного
+                                    вскармливания:</span></h4>
+                            <p>- Часто болеет </p>
+                            <p>- Медленное развитие/рост</p>
+                            <p>- Неспокойный</p>
+                            <p>- Не получает достаточное <br> количество витаминов</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="b7">
+            <div class="container">
+                <div class="b7__logo"><img src="images/dest/logo.png" alt="">
+                    <p>Не имеет побочных эффектов.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="slider">
+                <div class="container">
+                    <div class="slider__header">
+                        <h2>ОТЗЫВЫ О Milky mom</h2>
+                    </div>
+                    <div class="slideshow-container">
+                        <div class="mySlides fade active">
+                            <div class="slider__inner">
+                                <div class="slider__left">
+                                    <img src="images/dest/sliderpng1.png" alt="">
+                                </div>
+                                <div class="slider__right">
+                                    <h3>Мнение врача-гинеколога Ролланов А.</h3>
+                                    <p>Каждое гинекологическое заболевание требует своего лечения. Гормональные
+                                        прописывают
+                                        при гормональных сбоях, при воспалениях — совсем другие лекарства. Доходы многих
+                                        пациентов сейчас упали, а импортные лекарства дорожают. Если хотите сэкономить —
+                                        возьмите Milky Mom. Он помогает от многих проблем, к тому же его пьют для
+                                        профилактики опухолей и кист. Склонность ко всему натуральному, даже среди
+                                        врачей,
+                                        легко объяснима — с самого детва мы засоряем печень и другие внутренние органы
+                                        химией. А потом почти каждый второй болеет и чувствует себя плохо. Но Milky Mom—
+                                        полностью натуральный, его можно без опасений пить хоть всю жизнь. Исследования
+                                        препарата тому подтверждение.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mySlides fade">
+                            <div class="slider__inner">
+                                <div class="slider__left">
+                                    <img src="images/dest/sliderpng2.png" alt="">
+                                </div>
+                                <div class="slider__right">
+                                    <h3>Танзиля 36 лет:</h3>
+                                    <p>Напишу предысторию: ожидалось плановое кесарево, ребенок второй - долгожданная
+                                        дочка.
+                                        Мама я уже опытная и по опыту, и по возрасту. Поэтому думала, что проблемы с
+                                        молоком
+                                        меня не коснутся. Но всё пошло не по плану: дочку после кесарево положили в
+                                        реанимацию, потому что она долго не дышала, когда родилась. И тогда, у меня
+                                        случилась истерика, и это, как я думаю, повлияло на мою выработку молока. Молоко
+                                        пришло, но в очень маленьком количестве. И уже в роддоме, я начала пить
+                                        milkymom.
+                                        Молоко сразу начало стимулировать внутри. Грудь выросла и состояние заметно
+                                        улучшилось. Сейчас дочке 2 года, здоровая, радостная. Выросла только на ГВ.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="prev">&#10094;</a>
+                        <a class="next">&#10095;</a>
+                    </div>
+                    <div style="text-align: center; margin-top: 20px;">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="footer__wrapper">
+                    <div class="footer__picture">
+                        <img src="images/dest/product2.png" alt="">
+                        <div class="price">
+                            <div class="old_price">19 700 тг</div>
+                            <div class="new_price">14 990 тг</div>
+                        </div>
+                    </div>
+                    <div class="form" id="push">
+                        <p>Чтобы получить скидку, <br> <strong>заполните форму </strong></p>
+                        <span class="cpa-form-wrapper">
+                            <form method="POST" enctype="application/x-www-form-urlencoded"
+                                action="/?referer=&amp;cpa_form=1" onsubmit="return cpaFormValidation(this)">
+                                <div
+                                    class="cpa-form-group cpa-form-group-odd cpa-form-group-first cpa-wrapper-field-country">
+                                    <label class="cpa-control-label">Страна:</label><select
+                                        class="cpa-group-field cpa-select-country" name="country">
+                                        <option selected="true" value="kz">Казахстан</option>
+                                        <option value="kg">Киргизия</option>
+                                    </select>
+                                </div>
+                                <div class="cpa-form-group cpa-form-group-even cpa-wrapper-field-fio"><label
+                                        class="cpa-control-label">ФИО:</label><input
+                                        class="cpa-group-field cpa-input-fio" name="fio" placeholder="Ваше имя"></div>
+                                <div class="cpa-form-group cpa-form-group-odd cpa-wrapper-field-phone"><label
+                                        class="cpa-control-label">Телефон:</label><input
+                                        class="cpa-group-field cpa-input-phone" name="phone" placeholder="Ваш телефон">
+                                </div>
+                                <div class="cpa-form-group cpa-form-group-even cpa-wrapper-field-total"><label
+                                        class="cpa-control-label cpa-control-total">Итого:</label><span
+                                        class="cpa-control-amount">6490.00 тнг</span></div>
+                                <div
+                                    class="cpa-form-group cpa-form-group-odd cpa-form-group-last cpa-wrapper-field-submit">
+                                    <button class="cpa-input-submit" type="submit"
+                                        onclick="yaCounter45713811.reachGoal('ORDER'); return true;">ПОЛУЧИТЬ
+                                        СКИДКУ</button><input type="hidden" name="offer" value="laminary_mask"><input
+                                        type="hidden" name="vendor" value=""><input type="hidden" name="price"
+                                        value=""><input type="hidden" name="campaign_default" value="aAcLzqZl">
+                                </div>
+                            </form>
+                        </span>
+                    </div>
+
+                </div>
+                <h4>Здоровье ребенка – здоровье <br> матери</h4>
+            </div>
+        </footer>
+        <section class="subfooter">
+            <div class="subfooter__img"><img src="images/dest/subfooter.png" alt=""></div>
+        </section>
+        <a href="#up" class="pageup">
+            <img src="images/dest/angle-up-solid.svg" alt="up">
+        </a>
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/script.js"></script>
+
+</html>
